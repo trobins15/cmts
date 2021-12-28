@@ -32,7 +32,7 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
-   - label: Events
+  - label: Events
     name: events
     folder: _events/
     create: true
