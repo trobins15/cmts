@@ -185,6 +185,8 @@ pagination:
   # Without file extension
   indexpage: "index.html"
 
+incremental: true
+
 exclude:
   - package.json
   - package-lock.json
