@@ -57,8 +57,9 @@ collections:
           name: "tags",
           widget: "select",
           multiple: true,
-          options: ["Design", "UX", "Dev"],
-          default: ["Design"]
+          options: ["Arctic", "Energy", "Air Emissions", "Future of Navigation", "Infrastructure", "Maritime Data", "Ocean Policy", "R&D", "Resilience", "Education", "Safety and Security", 
+          "Economics", "Environmental Stewardship", "Capacity", "National Strategy", "Performance Measures"],
+          default: ["Artcic"]
          }
           
 
