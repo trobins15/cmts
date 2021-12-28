@@ -72,22 +72,3 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
-      - name: categories
-        widget: list
-        field: {
-          label: "category",
-          name: "category",
-          widget: "relation",
-          collection: "categories",
-          searchFields: ["name"],
-          valueField: "name"
-        }
-
-  - name: categories
-    label: Categories
-    folder: data/categories/
-    create: true
-    slug: "{{name}}"
-    identifier_field: name
-    fields: 
-      - {name: name, label: Name}
