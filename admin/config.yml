@@ -72,14 +72,14 @@ collections:
           timeFormat: false
         }
       - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Category"
-          name: "category"
-          widget: "select"
-          options:
-            - { label: "IAT Activity", value: "IAT Activity" }
-            - { label: "Press Release", value: "Press Release" }
-            - { label: "Information Update", value: "Information Update" }
-            - { label: "Resource Update", value: "Resource Update" }
-            - { label: "Technology Update", value: "Technology Update" }
-            - { label: "Organizational Change", value: "Organizational Change" }
-            - { label: "Policy Change", value: "Policy Change" }
+       - label: "Category"
+    name: "category"
+    widget: "select"
+    options:
+    - { label: "IAT Activity", value: "IAT Activity" }
+    - { label: "Press Release", value: "Press Release" }
+    - { label: "Information Update", value: "Information Update" }
+    - { label: "Resource Update", value: "Resource Update" }
+    - { label: "Technology Update", value: "Technology Update" }
+    - { label: "Organizational Change", value: "Organizational Change" }
+    - { label: "Policy Change", value: "Policy Change" }
